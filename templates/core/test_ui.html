@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Django Page</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="{% static 'core/style.css' %}">
+</head>
+<body>
+
+    <h1>Hello Django with External CSS & JS!</h1>
+    <p id="text-para">This text will update using JavaScript.</p>
+
+    <!-- External JS -->
+    <script src="{% static 'core/script.js' %}"></script>
+</body>
+</html>
