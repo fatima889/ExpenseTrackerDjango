@@ -39,10 +39,3 @@ python manage.py runserver
 python manage.py add_tags
 ```
 
-```bash
-python manage.py add_categories
-```
-
-```bash
-python manage.py add_expenses
-```
